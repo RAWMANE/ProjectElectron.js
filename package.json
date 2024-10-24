@@ -1,0 +1,19 @@
+{
+  "name": "projectelectron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "electron .",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "electron": "^33.0.2",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
+}
